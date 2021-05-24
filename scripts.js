@@ -60,6 +60,8 @@ function randomColor() {
     li.appendChild(document.createTextNode(listItem.value));
     ul.appendChild(li);
 
+    console.log(addItem())
+
  for (let i = 0; i < listItem.length; i++) {
     console.log(friends[i].name);
 
@@ -70,31 +72,6 @@ function randomColor() {
     }
 
 }
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
-//  function addItem(){
-//     let ul = document.getElementById("list");
-//     let listItem = document.getElementById("list item");
-//     let li = document.createElement("li");
-//     li.setAttribute('id',candidate.value);
-//     li.appendChild(document.createTextNode(candidate.value));
-//     ul.appendChild(li);
-
-// console.log(addItem())
-
-
-
-
-
-
 
     console.log('DOM fully loaded and parsed');
 
